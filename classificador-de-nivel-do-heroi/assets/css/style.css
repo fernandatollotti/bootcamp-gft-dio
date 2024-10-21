@@ -1,0 +1,70 @@
+/* ====== reset ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-family: 1rem;
+  height: 100%;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+label, p {margin-bottom: 0.75rem;}
+
+label {font-weight: bold;}
+
+p {font-size: 0.75rem;}
+
+input, button {border-radius: 6px;}
+
+span {display: block;}
+
+/* ====== form ====== */
+.hero-form__group-input {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-top: 20px;
+}
+
+.hero-form__group-input .hero-form__input {
+  padding: 1rem;
+  height: 36px;
+  border: 1px solid #dcdcdc;
+}
+
+.button-save {
+  margin-top: 2rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #1d6fe1;
+  color: #ffffff;
+}
+
+/* ====== section user profile ====== */
+.user-profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  height: 100vh;
+}
+
+.user-profile__avatar {margin-bottom: 1.5rem;}
+
+.user-profile__avatar i {font-size: 3.5rem;}
+
+.error-message {
+  margin-top: 1rem;
+  color: #e83b31  ;
+}
+
+#user-feedback-message {margin-top: 3rem;}
