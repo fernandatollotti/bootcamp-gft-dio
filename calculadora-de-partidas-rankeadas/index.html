@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de partidas Rankeadas</title>
+
+    <!-- phosphor icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- css -->
+     <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <section class="user-profile">
+      <div class="user-profile__avatar">
+        <i class="ph ph-user-circle"></i>
+      </div>
+      <form class="hero-form">
+        <div class="hero-form__group-input">
+          <label for="victory">Quantidade de vitórias</label>
+          <input type="text" id="victory" class="hero-form__input">
+        </div>
+        <div class="hero-form__group-input">
+          <label for="defeats">Quantidade de derrotas</label>
+          <p>Digite quantidade de derrotas entre 0 até acima de 100</p>
+          <input type="text" id="defeats" class="hero-form__input">
+        </div>
+        <span class="error-message" id="message-error"></span>
+        <button class="button-save">Salvar</button>
+      </form>
+      <span id="feedback-message"></span>
+    </section>
+    
+    <!-- js -->
+     <script src="assets/js/data.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
