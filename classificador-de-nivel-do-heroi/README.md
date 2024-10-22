@@ -4,27 +4,26 @@
 Este projeto é uma aplicação web interativa que ajuda os usuários a classificar seu nível de herói com base na quantidade de experiência (XP) fornecida. Os usuários podem inserir um nickname e a quantidade de XP, e receberão um feedback indicando o nível do herói, como "Ferro", "Bronze", "Prata", entre outros.
 
 ## 📚 O projeto é composto pelas seções:  
-🔸 **Cabeçalho**: Introdução ao projeto e ícone de usuário.  
-🔸 **Formulário do Usuário**: Entrada para o nickname e a quantidade de XP.  
-🔸 **Mensagem de Feedback**: Exibição do nível do herói e mensagens de erro, se necessário.
+🔸 Interface de usuário com campos para inserir nickname e XP   
+🔸 Exibição do nível do herói baseado no XP
 
 ## 🎯 Objetivo
 Crie uma variável para armazenar o nome e a quantidade de experiência (XP) de um herói, depois utilize uma estrutura de decisão para apresentar alguma das mensagens abaixo:
 
-- Se XP for menor do que 1.000 = Ferro
-- Se XP for entre 1.001 e 2.000 = Bronze
-- Se XP for entre 2.001 e 5.000 = Prata
-- Se XP for entre 5.001 e 7.000 = Ouro
-- Se XP for entre 7.001 e 8.000 = Platina
-- Se XP for entre 8.001 e 9.000 = Ascendente
-- Se XP for entre 9.001 e 10.000= Imortal
-- Se XP for maior ou igual a 10.001 = Radiante
+- XP < 1.000: Ferro
+- XP entre 1.001 e 2.000: Bronze
+- XP entre 2.001 e 5.000: Prata
+- XP entre 5.001 e 7.000: Ouro
+- XP entre 7.001 e 8.000: Platina
+- XP entre 8.001 e 9.000: Ascendente
+- XP entre 9.001 e 10.000: Imortal
+- XP ≥ 10.001: Radiante
 
 ## 📋 Requisitos
-🔹 **Variáveis**: Uso de variáveis para armazenar dados do usuário, como nickname e XP.  
-🔹 **Operadores**: Implementação de operadores lógicos e de comparação para validar as entradas.  
-🔹 **Laços de repetição**: Utilização de loops para determinar o nível do herói com base na quantidade de XP.  
-🔹 **Estruturas de decisões**: Aplicação de estruturas condicionais para classificar o herói de acordo com o XP.
+🔹 **Variáveis**
+🔹 **Operadores**
+🔹 **Laços de repetição**
+🔹 **Estruturas de decisões**
 
 ## 🛠️ Recursos
 ![HTML 5](https://img.shields.io/badge/HTML5-333333?style=for-the-badge&logo=html5)
