@@ -1,0 +1,111 @@
+/* ====== reset ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  height: 100%;
+}
+
+/* ====== common styles ====== */
+button {
+  border: none;
+  cursor: pointer;
+}
+
+label, p {margin-bottom: 0.75rem;}
+
+label {font-weight: bold;}
+
+p {font-size: 0.75rem;}
+
+input, select, button {border-radius: 6px;}
+
+input, select {
+  width: 13.75rem;
+  height: 36px;
+  border: 1px solid #dcdcdc;
+}
+
+input {padding: 1rem;}
+
+select {padding: 0 0.5rem;}
+
+span {display: block;}
+
+li {list-style: none;}
+
+/* ======= reused style ======= */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* ====== components ====== */
+/* card */
+.card-container {margin-top: 3rem;}
+
+.card {
+  display: none;
+  box-shadow: rgba(250, 250, 250, 0.1) -4px 9px 25px -6px;
+  padding: 2rem 1rem;
+  color: #ffffff;
+  background-color: #111810;
+  border-radius: 16px;
+}
+
+.card img {
+  width: 50%; margin: auto;
+}
+
+.card ul {margin-top: 1.5rem;}
+
+.card ul li {margin-bottom: 0.5rem;}
+
+.card ul li span {display: inline;}
+
+/* form */
+.character-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.character-form__group-input {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-top: 20px;
+}
+
+.button-save {
+  margin-top: 2rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #1d6fe1;
+  color: #ffffff;
+}
+
+/* ====== section user profile ====== */
+.user-profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  height: 100vh;
+}
+
+.user-profile__avatar {margin-bottom: 1.5rem;}
+
+.user-profile__avatar i {font-size: 4rem;}
+
+.error-message {
+  margin-top: 1rem;
+  color: #e83b31  ;
+}

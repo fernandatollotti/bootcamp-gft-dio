@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escrevendo as classes de um Jogo</title>
+
+    <!-- phosphor icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <section class="user-profile">
+      <div class="container">
+        <div class="profile-section">
+          <div class="user-profile__avatar">
+            <i class="ph ph-user-circle"></i>
+          </div>
+          <form class="character-form">
+            <div class="character-form__group-input">
+              <label for="character-name">Nome do personagem</label>
+              <input type="text" id="character-name" class="character-form__input">
+            </div>
+            <div class="character-form__group-input">
+              <label for="character-age">Idade do personagem</label>
+              <input type="text" id="character-age" class="character-form__input">
+            </div>
+            <div class="character-form__group-input">
+              <label for="characters">Escolha o personagem</label>
+              <select id="characters">
+                <option value="mago">Mago</option>
+                <option value="guerreiro">Guerreiro</option>
+                <option value="monge">Monge</option>
+                <option value="ninja">Ninja</option>
+              </select>
+            </div>
+            <span class="error-message" id="message-error"></span>
+            <button class="button-save">Salvar</button>
+          </form>          
+        </div>
+        <div class="card-container">
+          <article class="card">
+            <img src="assets/images/ninja.png" alt="">
+            <ul>
+              <li>Nome: <span id="name"></span></li>
+              <li>Idade: <span id="age"></span></li>
+            </ul>
+            <span id="message"></span>
+          </article>
+        </div>
+      </div>
+    </section>
+    
+    <!-- js -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
